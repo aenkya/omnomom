@@ -20,3 +20,5 @@ if __name__=='__main__':
         currency='EUR'
     )
     print(res)
+    print(client.getTransactionStatus(res['transaction_ref']))
+    print(client.getBalance())
