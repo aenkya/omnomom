@@ -1,0 +1,8 @@
+{
+    "ENVIRONMENT": "SANDBOX",
+    "BASE_URL": "enkya.org",
+    "CALLBACK_HOST": "enkya.org",
+    "COLLECTION_PRIMARY_KEY": "",
+    "COLLECTION_USER_ID": "",
+    "COLLECTION_API_SECRET": ""
+}
