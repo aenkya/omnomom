@@ -7,7 +7,7 @@ CONFIG_FILE = 'config.json'
 _config = {}
 if CONFIG_FILE:
     with open(CONFIG_FILE, 'r') as configfile:
-        _config = json.loads(configfile)
+        _config = json.load(configfile)
 
 ENVIRONMENT = os.getenv('ENVIRONMENT', _config.get('ENVIRONMENT', None))
 BASE_URL = os.getenv('BASE_URL', _config.get('BASE_URL', None))
