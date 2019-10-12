@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 mtnmomo = "*"
+python-dotenv = "*"
 
 [dev-packages]
 
